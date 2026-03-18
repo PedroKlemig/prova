@@ -67,8 +67,12 @@ public class Aluno {
 
     @Override
     public String toString() {
+<<<<<<< HEAD
         return "Aluno [id=" + id + ", nome=" + nome +
                 ", anoIngresso=" + anoIngresso +
                 ", curso=" + curso + "]";
+=======
+        return "Aluno [id=" + id + ", nome=" + nome + ", anoIngresso=" + anoIngresso + ", curso=" + curso + "]";
+>>>>>>> a2bc8edc207ec73069336b09db7b1cddc8b4975a
     }
 }
