@@ -69,6 +69,6 @@ public class Aluno {
     public String toString() {
         return "Aluno [id=" + id + ", nome=" + nome +
                 ", anoIngresso=" + anoIngresso +
-                ", curso=" + (curso != null ? curso.getNome() : null) + "]";
+                ", curso=" + curso + "]";
     }
 }
